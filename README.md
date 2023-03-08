@@ -13,3 +13,5 @@ This is a repo that I use to test how proto-buf works in serializing/deserializi
   Example for current directory: protoc definedProtoMessage.proto --cpp_out=.
   
   
+
+Decoding: https://medium.com/@yashschandra/an-inner-view-to-protobuf-encoding-e668f37847d5 
