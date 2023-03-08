@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message testStruct{
+    int32 id = 1;
+    string name = 2;
+    float salary = 3;
+    message PhoneNumber {
+        optional string number = 1;
+        optional int32 id = 2;
+    }
+    PhoneNumber phones = 4;
+}
+
+// // an array of testStruct
+// message testStructs{
+//     message innerStruct{}
+// }
